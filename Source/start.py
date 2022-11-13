@@ -25,6 +25,6 @@ async def _callbacks(red: Client, callback_query: CallbackQuery):
    chat_id = callback_query.from_user.id
    message_id = callback_query.message.id
    if query == 'start_':
-       await functions.one_word_query(chat_id, message_id)
+       await functions.one_word_query(chat_id)
    elif query == 'stop_':
-       await functions.stop_spam(chat_id, message_id)
+       await functions.stop_spam(chat_id)
