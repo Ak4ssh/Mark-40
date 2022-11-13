@@ -1,6 +1,6 @@
 
 
-from . import start_text, start_buttons
+from . import start_text, start_buttons, Runing
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, CallbackQuery
 from . import functions
@@ -26,3 +26,5 @@ async def _callbacks(red: Client, callback_query: CallbackQuery):
    message_id = callback_query.message.id
    if query == 'start_':
        await functions.one_word_query(chat_id, message_id)
+   elif query == 'stop_':
+       await functions.stop_spam(chat_id, message_id)
