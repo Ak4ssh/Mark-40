@@ -41,6 +41,7 @@ SESSION18 = os.getenv("SESSION18", None)
 SESSION19 = os.getenv("SESSION19", None)
 SESSION20 = os.getenv("SESSION20", None)
 ASSEM_HNDLR = "A"
+BYE_HNDLR = "O"
 
 
 def make_int(str_input):
