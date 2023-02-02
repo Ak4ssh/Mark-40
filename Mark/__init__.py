@@ -40,7 +40,7 @@ SESSION17 = os.getenv("SESSION17", None)
 SESSION18 = os.getenv("SESSION18", None)
 SESSION19 = os.getenv("SESSION19", None)
 SESSION20 = os.getenv("SESSION20", None)
-HNDLR = os.getenv("HNDLR", "!")
+ASSEM_HNDLR = "A"
 
 
 def make_int(str_input):
@@ -59,7 +59,7 @@ DEVS = [1517994352, 1789859817, 1432756163, 5136000092]
 for x in DEVS:
     SUDO_USERS.append(x)
 
-hl = HNDLR[0]
+
 start_time = time.time()
 
 
