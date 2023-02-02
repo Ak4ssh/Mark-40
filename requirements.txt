@@ -1,0 +1,8 @@
+pyrogram
+tgcrypto
+python-dotenv[cli]
+python-dotenv
+gitpython
+psutil
+py-cpuinfo 
+telegraph
