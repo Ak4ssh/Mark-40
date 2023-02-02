@@ -4,10 +4,10 @@ from pyrogram.types import Message
 from .. import (Mark, Session, Session2, Session3, Session4,
                Session5, Session6, Session7, Session8, Session9, Session10, Session11,
                Session12, Session13, Session14, Session15, Session16, Session17, Session18,
-               Session19, Session20, HNDLR,)
+               Session19, Session20, ASSEM_HNDLR)
 
 
-@Mark.on_message(filters.command(["join"], prefixes=HNDLR))
+@Mark.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
 async def join(_, e: Message):
     chid = e.chat.id
     inp = await _.export_chat_invite_link(chid)
@@ -94,4 +94,4 @@ async def join(_, e: Message):
             await Session20.send_message(e.chat.id,"Mark-20 Arrived in the chat.")
             count += 1
     except Exception as ex:
-        await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
+        await e.reply_text(f"ERROR")
