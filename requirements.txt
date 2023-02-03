@@ -6,3 +6,4 @@ gitpython
 psutil
 py-cpuinfo 
 telegraph
+py-tgcalls
