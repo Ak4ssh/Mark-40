@@ -10,7 +10,7 @@ from .. import (MARK, Session, Session2, Session3, Session4,
 x = True
 
 @MARK.on_message(filters.command(["urse"], prefixes=CURSE_HNDLR))
-async def oneword(event):
+async def hi(event):
     while x != False:
         message = update.effective_message  
         await event.delete()
