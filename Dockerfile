@@ -1,7 +1,7 @@
 FROM debian:latest
+RUN apt update && apt upgrade -y
 RUN apt-get -y install git
 RUN git clone https://github.com/desinobita/Mark-40
-RUN apt update && apt upgrade -y
 RUN apt install python3-pip -y
 RUN apt install ffmpeg -y
 RUN pip3 install pyrogram
