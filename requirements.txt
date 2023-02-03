@@ -7,3 +7,4 @@ psutil
 py-cpuinfo 
 telegraph
 py-tgcalls
+python-telegram-bot==13.10
