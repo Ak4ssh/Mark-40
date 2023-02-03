@@ -6,7 +6,9 @@ from .. import (Mark, Session, Session2, Session3, Session4,
                Session5, Session6, Session7, Session8, Session9, Session10, Session11,
                Session12, Session13, Session14, Session15, Session16, Session17, Session18,
                Session19, Session20, CURSE_HNDLR)
+
 x = True
+
 @Mark.on_message(filters.command(["urse"], prefixes=CURSE_HNDLR))
 async def oneword(event):
     while x != False:
