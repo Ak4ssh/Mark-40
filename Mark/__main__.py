@@ -2,11 +2,11 @@ import asyncio
 
 from pyrogram import idle
 
-from . import (Session, Session2, Session3, Session4,
+from . import (MARK, Session, Session2, Session3, Session4,
                Session5, Session6, Session7, Session8,
                Session9, Session10, Session11, Session12,
                Session13, Session14, Session15, Session16,
-               Session17, Session18, Session19, Session20, hl)
+               Session17, Session18, Session19, Session20)
                
 from . import (call_py1, call_py2, call_py3, call_py4,
                call_py5, call_py6, call_py7, call_py8,            
@@ -17,6 +17,16 @@ from . import (call_py1, call_py2, call_py3, call_py4,
 
 async def startup():
     # STARTING CLIENTS
+    if MARK:
+        try:
+            await MARK.start()
+            await MARK.join_chat("ArrayCore")
+            await MARK.join_chat("RiZoeLX")
+            await MARK.join_chat("Its_Hellbot")
+            await MARK.update_profile(bio="A Part Of Mark-40.") 
+        except Exception as e:
+            print(str(e))
+            
     if Session:
         try:
             await Session.start()
