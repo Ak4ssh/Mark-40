@@ -1,5 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
+from pytgcalls.types import Update
 
 from .. import (MARK, Session, Session2, Session3, Session4,
                Session5, Session6, Session7, Session8, Session9, Session10, Session11,
