@@ -14,285 +14,284 @@ async def oneword(event):
     while x != False:
         message = update.effective_message  
         await event.delete()
-        kek = event.chat_id
         if message.reply_to_message:
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "AJA")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "AJA")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "CHAL")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "CHAL")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "RHA")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "RHA")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "TERA")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "TERA")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "KEYBOARD")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "KEYBOARD")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "RANDI")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "RANDI")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "SUAR")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "SUAR")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "CHMAR")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "CHMAR")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "BSDK")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "BSDK")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "TERI")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "TERI")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "MAAA")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "MAAA")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "KA")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "KA")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "BHOSDA")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "BHOSDA")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "BEHEN")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "BEHEN")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "KE")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "KE")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "LAWDE")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "LAWDE")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "RANDI")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "RANDI")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "KI")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "KI")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "AULAAD")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "AULAAD")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "TERI")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "TERI")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "MAA")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "MAA")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "KI")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "KI")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "CHUTT")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "CHUTT")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "MAAAAIIII")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "MAAAAIIII")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "MERAAA")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "MERAAA")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "LOOOODDDAAA")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "LOOOODDDAAA")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "BHENNN")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "BHENNN")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "KEE")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "KEE")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "BHOSDEE")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "BHOSDEE")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "KKOOOO")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "KKOOOO")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "APNEE")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "APNEE")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "LUND")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "LUND")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "SEE")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "SEE")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "CHODDUU")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "CHODDUU")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "AAJAA")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "AAJAA")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "BETEE")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "BETEE")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "BAHENN")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "BAHENN")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "KEE")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "KEE")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "LODOD")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "LODOD")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "ABB")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "ABB")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "KAROO")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "KAROO")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "SPEED")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "SPEED")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "BEHEN")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "BEHEN")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "KA")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "KA")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "LAWDA")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "LAWDA")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "RANDI")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "RANDI")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "KI")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "KI")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "AULLAADD")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "AULLAADD")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "teri")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "teri")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "MAA")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "MAA")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "KI")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "KI")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "CHUT ME MERA LODA")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "CHUT ME MERA LODA")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "RANDI")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "RANDI")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "KYA")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "KYA")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "HUA")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "HUA")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "BAAP")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "BAAP")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "KE")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "KE")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "AAGE")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "AAGE")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "NHI")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "NHI")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "CHAL")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "CHAL")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "RHA")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "RHA")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "TERII")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "TERII")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "MAA KOO")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "MAA KOO")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "NILAM KRDU")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "NILAM KRDU")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "BEHENN KE LUNDD")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "BEHENN KE LUNDD")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "SUWARR")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "SUWARR")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "GAWARR")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "GAWARR")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "KEEE")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "KEEE")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "CHODEEE")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "CHODEEE")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "TERII")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "TERII")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "MUJRAA")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "MUJRAA")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "KREE")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "KREE")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "WALIII")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "WALIII")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "CHODUUUU")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "CHODUUUU")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "TERII")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "TERII")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "TERII")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "TERII")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "MA KAAA")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "MA KAAA")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "GANG RAPE")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "GANG RAPE")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "KARDUGAA")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "KARDUGAA")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "TEREE")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "TEREE")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "VAISHYAA")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "VAISHYAA")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "BEHENN KEEE")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "BEHENN KEEE")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "GANDEE BHOSDEE")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "GANDEE BHOSDEE")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "PAR APNA")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "PAR APNA")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "RAKH KE")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "RAKH KE")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "PREGNENNT KRUU")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "PREGNENNT KRUU")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "MAAII")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "MAAII")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "TERAA")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "TERAA")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "BBAAAP")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "BBAAAP")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "HHUUU")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "HHUUU")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "SMJHAA BSDKK")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "SMJHAA BSDKK")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "TOR")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "TOR")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "BBUUR")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "BBUUR")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "CHODAA")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "CHODAA")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "RANDIII")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "RANDIII")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "KKEEE")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "KKEEE")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "BEEJ")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "BEEJ")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "KEE")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "KEE")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "BHOSDEE")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "BHOSDEE")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "TERIII")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "TERIII")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "MMAAA")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "MMAAA")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "NNAA")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "NNAA")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "MARJAYEE")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "MARJAYEE")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "TEEERRII")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "TEEERRII")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "MAA")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "MAA")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "KKOO")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "KKOO")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "KUTTO")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "KUTTO")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "KEEE")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "KEEE")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "MUH")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "MUH")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "MUH")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "MUH")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "MMAAII")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "MMAAII")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "DALDUNGA")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "DALDUNGA")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "BHEN KE LAWDDE")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "BHEN KE LAWDDE")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "SALE")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "SALE")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "EEK")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "EEK")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "RAPTE")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "RAPTE")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "MEE")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "MEE")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "TEERRII")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "TEERRII")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "BHEN")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "BHEN")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "MERA")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "MERA")
             if Session:
-                await Session.message.reply_to_message.reply_text(kek, "LUUNNDD")
+                await Session.message.reply_to_message.reply_text(event.chat_id, "LUUNNDD")
             if Session2:
-                await Session2.message.reply_to_message.reply_text(kek, "CHAHTTII")
+                await Session2.message.reply_to_message.reply_text(event.chat_id, "CHAHTTII")
             if Session3:
-                await Session3.message.reply_to_message.reply_text(kek, "FIREGI")
+                await Session3.message.reply_to_message.reply_text(event.chat_id, "FIREGI")
             if Session4:
-                await Session4.message.reply_to_message.reply_text(kek, "PAPA HAI HUM")
+                await Session4.message.reply_to_message.reply_text(event.chat_id, "PAPA HAI HUM")
             if Session5:
-                await Session5.message.reply_to_message.reply_text(kek, "TERE")
+                await Session5.message.reply_to_message.reply_text(event.chat_id, "TERE")
             if Session6:
-                await Session6.message.reply_to_message.reply_text(kek, "BAAP")
+                await Session6.message.reply_to_message.reply_text(event.chat_id, "BAAP")
             if Session7:
-                await Session7.message.reply_to_message.reply_text(kek, "SE")
+                await Session7.message.reply_to_message.reply_text(event.chat_id, "SE")
             if Session8:
-                await Session8.message.reply_to_message.reply_text(kek, "BAKCHODI")
+                await Session8.message.reply_to_message.reply_text(event.chat_id, "BAKCHODI")
             if Session9:
-                await Session9.message.reply_to_message.reply_text(kek, "KARNE")
+                await Session9.message.reply_to_message.reply_text(event.chat_id, "KARNE")
             if Session10:
-                await Session10.message.reply_to_message.reply_text(kek, "AYEGA")
+                await Session10.message.reply_to_message.reply_text(event.chat_id, "AYEGA")
             if Session11:
-                await Session11.message.reply_to_message.reply_text(kek, "TOO")
+                await Session11.message.reply_to_message.reply_text(event.chat_id, "TOO")
             if Session12:
-                await Session12.message.reply_to_message.reply_text(kek, "GAND")
+                await Session12.message.reply_to_message.reply_text(event.chat_id, "GAND")
             if Session13:
-                await Session13.message.reply_to_message.reply_text(kek, "MAAII")
+                await Session13.message.reply_to_message.reply_text(event.chat_id, "MAAII")
             if Session14:
-                await Session14.message.reply_to_message.reply_text(kek, "SARIYA")
+                await Session14.message.reply_to_message.reply_text(event.chat_id, "SARIYA")
             if Session15:
-                await Session15.message.reply_to_message.reply_text(kek, "DAL")
+                await Session15.message.reply_to_message.reply_text(event.chat_id, "DAL")
             if Session16:
-                await Session16.message.reply_to_message.reply_text(kek, "DALDUNGGAA")
+                await Session16.message.reply_to_message.reply_text(event.chat_id, "DALDUNGGAA")
             if Session17:
-                await Session17.message.reply_to_message.reply_text(kek, "BETEE")
+                await Session17.message.reply_to_message.reply_text(event.chat_id, "BETEE")
             if Session18:
-                await Session18.message.reply_to_message.reply_text(kek, "JJAKE")
+                await Session18.message.reply_to_message.reply_text(event.chat_id, "JJAKE")
             if Session19:
-                await Session19.message.reply_to_message.reply_text(kek, "APNNI")
+                await Session19.message.reply_to_message.reply_text(event.chat_id, "APNNI")
             if Session20:
-                await Session20.message.reply_to_message.reply_text(kek, "MUMMY CHUDA")
+                await Session20.message.reply_to_message.reply_text(event.chat_id, "MUMMY CHUDA")
