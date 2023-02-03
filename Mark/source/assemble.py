@@ -184,7 +184,7 @@ async def join(_, e: Message):
 
         
         
-@Mark.on_message(filters.command(["k"], prefixes=BYE_HNDLR))
+@MARK.on_message(filters.command(["k"], prefixes=BYE_HNDLR))
 async def join(_, e: Message):
     chid = e.chat.id
     inp = await _.export_chat_invite_link(chid)
