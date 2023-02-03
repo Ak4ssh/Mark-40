@@ -9,7 +9,7 @@ from .. import (MARK, Session, Session2, Session3, Session4,
 
 
 @MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
-async def join(_, e: Message):
+async def join(_, chat_id: int, e: Message):
     chat = await MARK.get_chat(chat_id)
     ind = e.text[6:]
     if chat.username:
@@ -184,7 +184,7 @@ async def join(_, e: Message):
         
         
 @MARK.on_message(filters.command(["k"], prefixes=BYE_HNDLR))
-async def join(_, e: Message):
+async def join(_, chat_id: int, e: Message):
     chid = e.chat.id
     chat = await MARK.get_chat(chat_id)
     chat.username = await _.export_chat_invite_link(chid)
