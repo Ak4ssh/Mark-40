@@ -64,16 +64,16 @@ for x in DEVS:
 start_time = time.time()
 
 
+MARK = Client(
+    'mark',
+    api_id=API_ID,
+    api_hash=API_HASH,
+    session_string=SESSION,
+    plugins={'root': 'Mark.source'},
+)
 
 
 #-------------------------CLIENTS-----------------------------
-if MARK:
-    mark = Client(name="mark", api_id=API_ID, api_hash=API_HASH, session_string=MARK)
-    call_py1 = PyTgCalls(mark)
-else:
-    mark = None
-    call_py1 = None
-    
 if SESSION:
     Session = Client(name="Session", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
     call_py1 = PyTgCalls(Session)
