@@ -8,5 +8,5 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 
 RUN pip3 install --upgrade pip
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -U -r requirement.txt
 CMD python3 -m Mark
