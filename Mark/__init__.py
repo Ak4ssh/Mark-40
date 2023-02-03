@@ -7,9 +7,9 @@ from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 
 print("""
-     ╒══════════════════════╕
-        Starting Your Mark 
-     ╘══════════════════════╛
+     ╒═════════════════════════╕
+        Starting Your Mark-40 
+     ╘═════════════════════════╛
 """)
 
 if os.path.exists(".env"):
@@ -42,7 +42,7 @@ SESSION19 = os.getenv("SESSION19", None)
 SESSION20 = os.getenv("SESSION20", None)
 ASSEM_HNDLR = "A"
 BYE_HNDLR = "O"
-
+CURSE_HNDLR = "C"
 
 def make_int(str_input):
     str_list = str_input.split(" ")
