@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from .. import (Mark, Session, Session2, Session3, Session4,
+from .. import (MARK, Session, Session2, Session3, Session4,
                Session5, Session6, Session7, Session8, Session9, Session10, Session11,
                Session12, Session13, Session14, Session15, Session16, Session17, Session18,
                Session19, Session20, ASSEM_HNDLR, BYE_HNDLR)
 
 
-@Mark.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
+@MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
 async def join(_, e: Message):
     ind = e.text[6:]
     chid = e.chat.id
