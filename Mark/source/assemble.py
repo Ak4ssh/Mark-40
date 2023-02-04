@@ -11,86 +11,86 @@ from .. import (MARK, Session, Session2, Session3, Session4,
 @MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
 async def join(_, e: Message):
     ind = e.text[6:]
-    if e.chat.username:
+    if e.e.chat.id:
         try:
             if Session:
-                await Session.join_chat(chat.username)
+                await Session.join_chat(e.chat.id)
                 await Session.send_message(e.chat.id,"Mark-1 Arrived in the chat.")
                 count += 1
             if Session2:
-                await Session2.join_chat(chat.username)
+                await Session2.join_chat(e.chat.id)
                 await Session2.send_message(e.chat.id,"Mark-2 Arrived in the chat.")
                 count += 1
             if Session3:
-                await Session3.join_chat(chat.username)
+                await Session3.join_chat(e.chat.id)
                 await Session3.send_message(e.chat.id,"Mark-3 Arrived in the chat.")
                 count += 1
             if Session4:
-                await Session4.join_chat(chat.username)
+                await Session4.join_chat(e.chat.id)
                 await Session4.send_message(e.chat.id,"Mark-4 Arrived in the chat.")
                 count += 1
             if Session5:
-                await Session5.join_chat(chat.username)
+                await Session5.join_chat(e.chat.id)
                 await Session5.send_message(e.chat.id,"Mark-5 Arrived in the chat.")
                 count += 1
             if Session6:
-                await Session6.join_chat(chat.username)
+                await Session6.join_chat(e.chat.id)
                 await Session6.send_message(e.chat.id,"Mark-6 Arrived in the chat.")
                 count += 1
             if Session7:
-                await Session7.join_chat(chat.username)
+                await Session7.join_chat(e.chat.id)
                 await Session7.send_message(e.chat.id,"Mark-7 Arrived in the chat.")
                 count += 1
             if Session8:
-                await Session8.join_chat(chat.username)
+                await Session8.join_chat(e.chat.id)
                 await Session8.send_message(e.chat.id,"Mark-8 Arrived in the chat.")
                 count += 1
             if Session9:
-                await Session9.join_chat(chat.username)
+                await Session9.join_chat(e.chat.id)
                 await Session9.send_message(e.chat.id,"Mark-9 Arrived in the chat.")
                 count += 1
             if Session10:
-                await Session10.join_chat(chat.username)
+                await Session10.join_chat(e.chat.id)
                 await Session10.send_message(e.chat.id,"Mark-10 Arrived in the chat.")
                 count += 1
             if Session11:
-                await Session11.join_chat(chat.username)
+                await Session11.join_chat(e.chat.id)
                 await Session11.send_message(e.chat.id,"Mark-11 Arrived in the chat.")
                 count += 1
             if Session12:
-                await Session12.join_chat(chat.username)
+                await Session12.join_chat(e.chat.id)
                 await Session12.send_message(e.chat.id,"Mark-12 Arrived in the chat.")
                 count += 1
             if Session13:
-                await Session13.join_chat(chat.username)
+                await Session13.join_chat(e.chat.id)
                 await Session13.send_message(e.chat.id,"Mark-13 Arrived in the chat.")
                 count += 1
             if Session14:
-                await Session14.join_chat(chat.username)
+                await Session14.join_chat(e.chat.id)
                 await Session14.send_message(e.chat.id,"Mark-14 Arrived in the chat.")
                 count += 1
             if Session15:
-                await Session15.join_chat(chat.username)
+                await Session15.join_chat(e.chat.id)
                 await Session15.send_message(e.chat.id,"Mark-15 Arrived in the chat.")
                 count += 1
             if Session16:
-                await Session16.join_chat(chat.username)
+                await Session16.join_chat(e.chat.id)
                 await Session16.send_message(e.chat.id,"Mark-16 Arrived in the chat.")
                 count += 1
             if Session17:
-                await Session17.join_chat(chat.username)
+                await Session17.join_chat(e.chat.id)
                 await Session17.send_message(e.chat.id,"Mark-17 Arrived in the chat.")
                 count += 1
             if Session18:
-                await Session18.join_chat(chat.username)
+                await Session18.join_chat(e.chat.id)
                 await Session18.send_message(e.chat.id,"Mark-18 Arrived in the chat.")
                 count += 1
             if Session19:
-                await Session19.join_chat(chat.username)
+                await Session19.join_chat(e.chat.id)
                 await Session19.send_message(e.chat.id,"Mark-19 Arrived in the chat.")
                 count += 1
             if Session20:
-                await Session20.join_chat(chat.username)
+                await Session20.join_chat(e.chat.id)
                 await Session20.send_message(e.chat.id,"Mark-20 Arrived in the chat.")
                 count += 1
         except Exception as ex:
@@ -186,68 +186,68 @@ async def join(_, e: Message):
 async def join(_, chat_id: int, e: Message):
     chid = e.chat.id
     chat = await MARK.get_chat(chat_id)
-    chat.username = await _.export_chat_invite_link(chid)
+    e.chat.id = await _.export_chat_invite_link(chid)
     count = 0
     try:
         if Session:
-            await Session.leave_chat(chat.username)
+            await Session.leave_chat(e.chat.id)
             count += 1
         if Session2:
-            await Session2.leave_chat(chat.username)
+            await Session2.leave_chat(e.chat.id)
             count += 1
         if Session3:
-            await Session3.leave_chat(chat.username)
+            await Session3.leave_chat(e.chat.id)
             count += 1
         if Session4:
-            await Session4.leave_chat(chat.username)
+            await Session4.leave_chat(e.chat.id)
             count += 1
         if Session5:
-            await Session5.leave_chat(chat.username)
+            await Session5.leave_chat(e.chat.id)
             count += 1
         if Session6:
-            await Session6.leave_chat(chat.username)
+            await Session6.leave_chat(e.chat.id)
             count += 1
         if Session7:
-            await Session7.leave_chat(chat.username)
+            await Session7.leave_chat(e.chat.id)
             count += 1
         if Session8:
-            await Session8.leave_chat(chat.username)
+            await Session8.leave_chat(e.chat.id)
             count += 1
         if Session9:
-            await Session9.leave_chat(chat.username)
+            await Session9.leave_chat(e.chat.id)
             count += 1
         if Session10:
-            await Session10.leave_chat(chat.username)
+            await Session10.leave_chat(e.chat.id)
             count += 1
         if Session11:
-            await Session11.leave_chat(chat.username)
+            await Session11.leave_chat(e.chat.id)
             count += 1
         if Session12:
-            await Session12.leave_chat(chat.username)
+            await Session12.leave_chat(e.chat.id)
             count += 1
         if Session13:
-            await Session13.leave_chat(chat.username)
+            await Session13.leave_chat(e.chat.id)
             count += 1
         if Session14:
-            await Session14.leave_chat(chat.username)
+            await Session14.leave_chat(e.chat.id)
             count += 1
         if Session15:
-            await Session15.leave_chat(chat.username)
+            await Session15.leave_chat(e.chat.id)
             count += 1
         if Session16:
-            await Session16.leave_chat(chat.username)
+            await Session16.leave_chat(e.chat.id)
             count += 1
         if Session17:
-            await Session17.leave_chat(chat.username)
+            await Session17.leave_chat(e.chat.id)
             count += 1
         if Session18:
-            await Session18.leave_chat(chat.username)
+            await Session18.leave_chat(e.chat.id)
             count += 1
         if Session19:
-            await Session19.leave_chat(chat.username)
+            await Session19.leave_chat(e.chat.id)
             count += 1
         if Session20:
-            await Session20.leave_chat(chat.username)
+            await Session20.leave_chat(e.chat.id)
             count += 1
     except Exception as ex:
         await e.reply_text(f"ERROR")
