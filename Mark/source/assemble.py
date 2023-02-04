@@ -11,14 +11,12 @@ sessions = [Session, Session2, Session3, Session4, Session5, Session6, Session7,
            Session11, Session12, Session13, Session14, Session15, Session16, Session17, Session18, Session19, Session20]
 
 @MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
-async def join(_, e: Message):
-    ind = e.text[6:]
-    for i, session in enumerate(sessions):
+def join_group(client, message):
+    # Iterate through each session in the list
+   for i, session in enumerate(sessions):
         if session:
-                 await session.join_chat(e.chat.id)
-                 await session.send_message(e.chat.id, f"Mark-{i + 1} Arrived in the chat.")
-
-        
+            # Join the session to the group
+            session.join_chat(message.chat.id)   
         
 @MARK.on_message(filters.command(["k"], prefixes=BYE_HNDLR))
 async def join(_, chat_id: int, e: Message):
