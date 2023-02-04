@@ -9,10 +9,11 @@ from .. import (MARK, Session, Session2, Session3, Session4,
 
 
 @MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
-async def join(_, chat_id: Message):
+async def join(_, e: Message):
+    chat_id=message.chat.id,
     chat = await MARK.get_chat(chat_id)
     ind = text[6:]
-    if chat.username:
+    if e.chat.username:
         try:
             if Session:
                 await Session.join_chat(chat.username)
@@ -95,7 +96,7 @@ async def join(_, chat_id: Message):
                 await Session20.send_message(e.chat.id,"Mark-20 Arrived in the chat.")
                 count += 1
         except Exception as ex:
-            await reply_text(f"ERROR")
+            await e.reply_text(f"ERROR")
     else:
         try:
             if Session:
@@ -179,7 +180,7 @@ async def join(_, chat_id: Message):
                 await Session20.send_message(e.chat.id,"Mark-20 Arrived in the chat.")
                 count += 1
         except Exception as ex:
-            await reply_text(f"ERROR")
+            await e.reply_text(f"ERROR")
 
         
         
