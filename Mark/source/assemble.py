@@ -10,7 +10,7 @@ from .. import (MARK, Session, Session2, Session3, Session4,
 
 @MARK.on_message(filters.command(["ssemble"], prefixes=ASSEM_HNDLR))
 async def join(_, e: Message):
-    chat_id=message.chat.id,
+    chat_id = e.chat.id,
     chat = await MARK.get_chat(chat_id)
     ind = text[6:]
     if e.chat.username:
